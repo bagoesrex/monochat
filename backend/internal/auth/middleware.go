@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/bagoesrex/go-chat/backend/internal/ctxkey"
+	"github.com/bagoesrex/monochat/backend/internal/ctxkey"
 )
 
 // UserIDKey re-exported for callers that import auth directly.

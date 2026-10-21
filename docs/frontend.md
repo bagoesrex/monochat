@@ -1,12 +1,12 @@
 # Frontend & Design System
 
-Dokumen ini menjelaskan implementasi antarmuka pengguna (UI), sistem desain **Neo-Brutalism**, manajemen state dengan Zustand, serta strategi transisi visual di **go-chat**.
+Dokumen ini menjelaskan implementasi antarmuka pengguna (UI), sistem desain **Neo-Brutalism**, manajemen state dengan Zustand, serta strategi transisi visual di **Monochat**.
 
 ---
 
 ## 1. Sistem Desain: Neo-Brutalism (Light Mode)
 
-go-chat menerapkan gaya visual **Neo-Brutalism** murni yang mengutamakan kontras tinggi, garis struktural tegas, bayangan fisik (*hard drop shadows*), dan tidak menggunakan komponen bawaan library generik (no shadcn/MUI).
+Monochat menerapkan gaya visual **Neo-Brutalism** murni yang mengutamakan kontras tinggi, garis struktural tegas, bayangan fisik (*hard drop shadows*), dan tidak menggunakan komponen bawaan library generik (no shadcn/MUI).
 
 ### Design Tokens (`frontend/src/styles/global.css`)
 

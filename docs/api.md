@@ -1,6 +1,6 @@
 # Spesifikasi REST API & WebSocket Protocol
 
-Dokumen ini mendefinisikan seluruh antarmuka HTTP REST API dan protokol WebSocket yang tersedia di **go-chat**.
+Dokumen ini mendefinisikan seluruh antarmuka HTTP REST API dan protokol WebSocket yang tersedia di **Monochat**.
 
 ---
 

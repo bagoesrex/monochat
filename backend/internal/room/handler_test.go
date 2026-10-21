@@ -6,7 +6,7 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/bagoesrex/go-chat/backend/internal/ctxkey"
+	"github.com/bagoesrex/monochat/backend/internal/ctxkey"
 )
 
 func TestGetMessages_BadPath(t *testing.T) {

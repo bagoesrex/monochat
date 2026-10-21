@@ -1,8 +1,8 @@
-# go-chat Documentation
+# Monochat Documentation
 
-Selamat datang di dokumentasi resmi arsitektur dan teknis **go-chat**.
+Selamat datang di dokumentasi resmi arsitektur dan teknis **Monochat**.
 
-go-chat adalah platform chat realtime performa tinggi dengan backend berbasis **Go** dan frontend berbasis **React + Vite** yang mengusung desain **Neo-Brutalism**.
+Monochat adalah platform chat realtime performa tinggi dengan backend berbasis **Go** dan frontend berbasis **React + Vite** yang mengusung desain **Neo-Brutalism**.
 
 ---
 

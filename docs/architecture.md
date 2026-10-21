@@ -1,12 +1,12 @@
-# Arsitektur Sistem go-chat
+# Arsitektur Sistem Monochat
 
-Dokumen ini menjelaskan arsitektur tingkat tinggi dari **go-chat**, mencakup model konkurensi backend berbasis Go goroutines/channels serta penerapan *Clean Architecture* pada frontend React.
+Dokumen ini menjelaskan arsitektur tingkat tinggi dari **Monochat**, mencakup model konkurensi backend berbasis Go goroutines/channels serta penerapan *Clean Architecture* pada frontend React.
 
 ---
 
 ## 1. Desain Arsitektur Keseluruhan
 
-Sistem go-chat mengadopsi model *client-server hybrid* (REST API untuk operasi transaksional/data historis, dan WebSocket untuk komunikasi dua arah secara *realtime*).
+Sistem Monochat mengadopsi model *client-server hybrid* (REST API untuk operasi transaksional/data historis, dan WebSocket untuk komunikasi dua arah secara *realtime*).
 
 ```
                       ┌──────────────────────────────────────────┐
@@ -103,7 +103,7 @@ Frontend React dibangun dengan arsitektur berlapis (*layered architecture*) yang
 ## 4. Struktur Direktori Proyek
 
 ```
-go-chat/
+monochat/
 ├── backend/
 │   ├── cmd/ atau main.go          # Entry point & inisialisasi routing HTTP/WS
 │   ├── go.mod & go.sum

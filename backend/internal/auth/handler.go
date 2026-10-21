@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/bagoesrex/go-chat/backend/internal/user"
+	"github.com/bagoesrex/monochat/backend/internal/user"
 	"github.com/lib/pq"
 )
 

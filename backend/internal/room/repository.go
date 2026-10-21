@@ -6,7 +6,7 @@ import (
 	"errors"
 	"time"
 
-	"github.com/bagoesrex/go-chat/backend/internal/user"
+	"github.com/bagoesrex/monochat/backend/internal/user"
 )
 
 type Room struct {

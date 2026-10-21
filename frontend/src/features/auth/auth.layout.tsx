@@ -8,7 +8,7 @@ export function AuthLayout() {
       <div className={styles.card}>
         <div className={styles.brand}>
           <Logo size={40} />
-          <span className={styles.brandName}>go-chat</span>
+          <span className={styles.brandName}>Monochat</span>
         </div>
         <Outlet />
       </div>

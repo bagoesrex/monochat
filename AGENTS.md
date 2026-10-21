@@ -1,13 +1,13 @@
-# go-chat — AI Agent Guidelines
+# Monochat — AI Agent Guidelines
 
-Dokumen ini berisi panduan, konvensi arsitektur, dan aturan pengembangan untuk seluruh AI Coding Agent yang bekerja di repositori **go-chat**.
+Dokumen ini berisi panduan, konvensi arsitektur, dan aturan pengembangan untuk seluruh AI Coding Agent yang bekerja di repositori **Monochat**.
 
 ---
 
 ## 1. Tata Letak Proyek (Project Layout)
 
 ```
-go-chat/
+monochat/
 ├── backend/                  # Go API & WebSocket server
 ├── frontend/                 # Vite + React + TypeScript + CSS Modules
 ├── docs/                     # Dokumentasi arsitektur, API, database, frontend

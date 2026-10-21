@@ -6,7 +6,7 @@ import (
 	"log"
 	"time"
 
-	"github.com/bagoesrex/go-chat/backend/internal/room"
+	"github.com/bagoesrex/monochat/backend/internal/room"
 	"github.com/gorilla/websocket"
 )
 

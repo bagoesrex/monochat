@@ -4,7 +4,7 @@ import (
 	"context"
 	"log"
 
-	"github.com/bagoesrex/go-chat/backend/internal/room"
+	"github.com/bagoesrex/monochat/backend/internal/room"
 )
 
 type broadcastMsg struct {

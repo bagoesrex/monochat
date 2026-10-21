@@ -1,6 +1,6 @@
 # Desain & Skema Database
 
-Dokumen ini memuat arsitektur database, skema relasional, optimasi indeks, serta mekanisme migrasi skema di **go-chat**.
+Dokumen ini memuat arsitektur database, skema relasional, optimasi indeks, serta mekanisme migrasi skema di **Monochat**.
 
 ---
 

@@ -38,7 +38,7 @@ export function RoomsLayout() {
         <header className={styles.sidebarHeader}>
           <div className={styles.logoGroup}>
             <Logo size={24} />
-            <span className={styles.logo}>go-chat</span>
+            <span className={styles.logo}>Monochat</span>
           </div>
           <button
             className={styles.logoutBtn}

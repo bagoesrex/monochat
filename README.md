@@ -1,4 +1,4 @@
-# go-chat
+# Monochat
 
 Live: [go-chat-rex.vercel.app](https://go-chat-rex.vercel.app)
 
@@ -45,7 +45,7 @@ Dokumentasi arsitektur dan spesifikasi teknis mendalam tersedia di folder [`docs
 ## Prasyarat Sistem
 
 - **Go** versi 1.21 ke atas
-- **PostgreSQL** aktif (buat database kosong, misal: `gochat`)
+- **PostgreSQL** aktif (buat database kosong, misal: `monochat`)
 - **Bun** (direkomendasikan) atau **Node.js** (v18+)
 
 ---
@@ -62,7 +62,7 @@ Dokumentasi arsitektur dan spesifikasi teknis mendalam tersedia di folder [`docs
 2. Sesuaikan konfigurasi di `backend/.env`:
    ```env
    PORT=8080
-   DB_URL=postgres://postgres:postgres@localhost:5432/gochat?sslmode=disable
+   DB_URL=postgres://postgres:postgres@localhost:5432/monochat?sslmode=disable
    JWT_SECRET=rahasia_super_aman_ganti_di_produksi
    CLIENT_ORIGIN=http://localhost:5173
    ```
@@ -101,7 +101,7 @@ Dokumentasi arsitektur dan spesifikasi teknis mendalam tersedia di folder [`docs
 ## Struktur Direktori
 
 ```
-go-chat/
+monochat/
 ├── backend/                  # REST API & WebSocket server (Go)
 │   ├── cmd/ atau main.go     # Entry point & routing
 │   ├── internal/             # Domain logic (auth, room, user, ws, db, config)

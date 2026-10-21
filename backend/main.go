@@ -4,12 +4,12 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/bagoesrex/go-chat/backend/internal/auth"
-	"github.com/bagoesrex/go-chat/backend/internal/config"
-	"github.com/bagoesrex/go-chat/backend/internal/db"
-	"github.com/bagoesrex/go-chat/backend/internal/room"
-	"github.com/bagoesrex/go-chat/backend/internal/user"
-	"github.com/bagoesrex/go-chat/backend/internal/ws"
+	"github.com/bagoesrex/monochat/backend/internal/auth"
+	"github.com/bagoesrex/monochat/backend/internal/config"
+	"github.com/bagoesrex/monochat/backend/internal/db"
+	"github.com/bagoesrex/monochat/backend/internal/room"
+	"github.com/bagoesrex/monochat/backend/internal/user"
+	"github.com/bagoesrex/monochat/backend/internal/ws"
 )
 
 func main() {
